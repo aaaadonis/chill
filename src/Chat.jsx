@@ -18,10 +18,10 @@ function Chat() {
   return (
     <div>
       <div className="logo">
-      <a href="choosing.shop">
-        <img src={chill} alt="" />
-        <p>Shop</p>
-      </a>
+        <a href="https://www.google.com">
+          <img src={chill} alt="" />
+          <p>Shop</p>
+        </a>
       </div>
       <div className="msgs">
         {messages.map(({ id, text }) => (
