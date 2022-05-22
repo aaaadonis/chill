@@ -18,7 +18,7 @@ function Chat() {
   return (
     <div>
       <div className="logo">
-        <a href="https://www.google.com">
+        <a href="https://chosen-shop-acf5.myshopify.com">
           <img src={chill} alt="" />
           <p>Shop</p>
         </a>
