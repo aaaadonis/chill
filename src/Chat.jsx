@@ -10,7 +10,7 @@ function Chat() {
   useEffect(() => {
     db.collection("messages")
       .orderBy("createdAt")
-      .limit(50)
+      .limit(150)
       .onSnapshot((snapshot) => {
         setMessages(snapshot.docs.map((doc) => doc.data()));
       });
